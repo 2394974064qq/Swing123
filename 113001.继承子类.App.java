@@ -8,8 +8,10 @@ public class App extends R {
 		 
 		 for(int i=0;i<app.arr.length;i++) {
 			 for(int j=0;j<app.arr[i].length;j++) {
-				 System.out.println(app.arr[i][j]);
+				 System.out.print(app.arr[i][j]+" ");
 			 }
+			// 换行
+			System.out.println();
 		}
 	}
 }
